@@ -9,7 +9,7 @@ function _sortByKey(){
 }
 
 function getTotalAccountsCount(accounts) {
-  _sortByKey();
+  return accounts.length;
 }
 
 function getBooksBorrowedCount(books) {}
